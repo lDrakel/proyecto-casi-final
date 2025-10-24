@@ -1,62 +1,105 @@
-*{
+ {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f5f7fa;
   color: #333;
   line-height: 1.6;
 }
-header{
+
+header {
   background-color: #003049;
   color: #ffffff;
   text-align: center;
   padding: 40px 20px;
 }
-.logo-placeholder{
-  width:80px;
-  height:80px;
-  margin:0 auto 20px auto;
-  border-radius:50%;
-  background-color:#5BC0BE;
+
+.logo-placeholder {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  background-color: #5BC0BE;
 }
-.tagline{
-  margin-top:10px;
-  font-size:1.1rem;
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1.1rem;
 }
-nav{
-  margin-top:30px;
+
+nav {
+  margin-top: 30px;
 }
-nav button{
-  display:inline-block;
-  margin:10px;
-  padding:12px 24px;
-  background-color:#5BC0BE;
-  color:#ffffff;
-  border:none;
-  border-radius:4px;
-  font-weight:bold;
-  cursor:pointer;
+
+nav button {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #5BC0BE;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-nav button:hover{
-  background-color:#3a9ea0;
+
+nav button:hover {
+  background-color: #3a9ea0;
 }
-@media (min-width:600px){
-  nav button{
+
+@media (min-width: 600px) {
+  nav button {
     margin: 0 15px;
     padding: 14px 32px;
   }
 }
-.sub-header{
-  background-color:#003049;
-  color:#ffffff;
-  text-align:center;
-  padding:20px 20px;
+
+.sub-header {
+  background-color: #003049;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 20px;
 }
-.content{
-  max-width:800px;
-  margin:20px auto;
-  padding:0 20px;
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h3 {
+  color: #00539C;
+  font-size: 26px;
+  font-weight: 700;
+  border-bottom: 2px solid #00539C;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #004C91;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  color: #0073C0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
